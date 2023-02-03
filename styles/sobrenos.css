@@ -16,6 +16,7 @@
     font-size: 48px;
     font-weight: 600;
     color: var(--cinza);
+    letter-spacing: -0.02em;
     margin: 0.7em 0;
 }
 
@@ -70,13 +71,36 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        row-gap: 3.5em;
     }
     .metas__block{
         display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
         width: 80vw;
         
     }
     .metas__titulo{
-        
+        width: 100%;
+        text-align: center;
     }
+    .metas__texto{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:2500px){
+    
+    .sobrenos {
+        margin: 0 15vw;
+    }
+
+    .metas__block{
+        width: auto;
+    }
+    .sobrenos__metas{
+        column-gap: 2em;
+    }
+
 }
