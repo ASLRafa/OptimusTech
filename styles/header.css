@@ -106,7 +106,7 @@
     }
 }
 
-@media screen and (min-width:720px) and (max-width:1435px){
+@media screen and (min-width:720px) and (max-width:1350px){
     .container {
         margin: 1em 6em 1em 0em;
         order: 1;

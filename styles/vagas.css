@@ -1,4 +1,4 @@
-.vagas__pop{
+.talento__pop{
     color: var(--vermelho);
     display: inline-block;
     
@@ -11,7 +11,7 @@
 
 }
 
-.vagas__titulo{
+.talento__titulo{
     font-size: 36px;
     font-weight: 600;
     color: var(--cinza);
@@ -21,23 +21,23 @@
 
 }
 
-.vagas__subtitulo{
+.talento__subtitulo{
     font-size: 20px;
     font-weight: 400;
     color: var(--cinza-subtitulo);
     text-align: center;
 }
 
-.vagas__imagem{
+.talento__imagem{
     margin: 4em auto;
     width: 100%;
 
 }
-.vagas__logo{
+.talento__logo{
     display: none;
 }
 
-.vagas__top{
+.talento__top{
     margin: 13em 7.5vw auto;
 
     display: flex;
@@ -45,20 +45,68 @@
     flex-direction: column;
 }
 
+.vagas__titulo{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 0 2em 0;
+    color: var(--cinza);
+}
+.vagas{
+    display: flex;
+    /* justify-content: center; */
+    margin: 1em 16vw;
+}
+.vagas__block{
+
+    width: fit-content;
+}
+.vagas__lista{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5em;
+}
+.vagas__link{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 80%;
+    padding-left: 1em;
+    padding-right: 33vw;
+    border: 1px solid var(--branco-contorno);
+    border-radius: 16px;
+    text-decoration: none;
+}
+
+.link__cargo{
+    /* display: inline-block;
+    margin-right: 60%; */
+    margin-right: 60%;
+    font-size: 18px;
+    color: var(--cinza);
+    font-weight: 500;
+    padding: 1em 0;
+}
+
+
+.link__descricao{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-subtitulo);
+}
 
 @media screen and (max-width:720px ){
-    .vagas__top{
+    .talento__top{
 
         margin: 8em 4em 0;
         border-top: 1px solid rgba(0, 0, 0, 0.137);
         padding-top: 1em;
     }
 
-    .vagas__imagem{
+    .talento__imagem{
         display: none;
     }
 
-    .vagas__logo{
+    .talento__logo{
         display: block;
         margin-top: 1em;
     }
@@ -67,7 +115,7 @@
 
 
 @media screen and (min-width:2500px){
-    .vagas__top{
+    .talento__top{
         margin: 8em 18vw;
 
     }
