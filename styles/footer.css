@@ -1,0 +1,14 @@
+.rodape{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--cinza-background);
+}
+
+.newsletter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+

@@ -1,6 +1,8 @@
 @import url(styles/header.css);
 @import url(styles/sobrenos.css);
 @import url(styles/vagas.css);
+@import url(styles/depoimentos.css);
+@import url(styles/footer.css);
 
 :root{
     --branco: #ffffff;
@@ -9,9 +11,11 @@
     --cinza:#101828;
     --cinza-titulo:#3a404e;
     --cinza-subtitulo: #667085;
+    --cinza-background:#f9fafb;
     --vermelho:#8E2424;
     --vermelho-transparente:#8e24240d;
     --vermelho-claro: #ce7171;
+    --vermelho-background:#c4191908;
 
 }
 

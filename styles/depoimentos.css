@@ -1,0 +1,37 @@
+.depoimentos{
+    margin: 6em auto;
+}
+
+.depoimentos__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--vermelho-background);
+    margin: auto 7.5vw;
+    padding: 3em 3em;
+    border-radius: 16px;
+}
+
+.depoimento__descricao{
+    font-size: 14px;
+    font-weight: 600;
+    color:var(--vermelho)
+}
+.depoimento__titulo{
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--cinza);
+    text-align: center;
+    padding: 0.8em 0 1.3em;
+}
+
+.depoimento__nome{
+    padding:0.7em 0;
+    font-weight: 500;
+    color: var(--cinza);
+}
+.depoimento__cargo{
+    font-size: 14px;
+    color: var(--cinza-subtitulo);
+}
+
