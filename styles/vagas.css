@@ -89,7 +89,7 @@
 .link__cargo{
     /* display: inline-block;
     margin-right: 60%; */
-    margin-right: 63%;
+    
     font-size: 18px;
     color: var(--cinza);
     font-weight: 500;
@@ -101,6 +101,14 @@
     font-size: 16px;
     font-weight: 500;
     color: var(--cinza-subtitulo);
+}
+
+.link__container{
+    display: flex;
+    column-gap: 2em;
+    width:100%;
+    margin-right: 2em;
+
 }
 
 @media screen and (max-width:720px ){
@@ -119,7 +127,23 @@
         display: block;
         margin-top: 1em;
     }
-    
+
+    .vagas{
+        margin:auto 3vw;
+    }
+    .vagas__card{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .vagas__link{
+        padding-right: 3em;
+        padding-bottom: 1.5em;
+    }
+    .link__container{
+        margin: auto auto;
+        
+    }
 }
 
 
